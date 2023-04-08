@@ -1,0 +1,9 @@
+CREATE TABLE [ProductName](
+	[ProductID] [bigint] IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	[PNAME] [nvarchar](max) NULL,
+	[CategoryID] [bigint] NULL	
+)
+
+CREATE TABLE [Categories](
+	[CATEGORYID] [bigint] IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	[CNAME] [nvarchar](max) NULL)
